@@ -1,0 +1,57 @@
+.navbar {
+
+    width: 100vw;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.navbar-link {
+
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;
+
+    i {
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+
+    &:hover {
+
+        cursor: pointer;
+        color: #eccc68;
+
+    }
+
+}
+
+
+.user {
+
+
+    margin-left: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    i {
+
+        margin-left: 10px;
+        margin-top: 5px;
+
+        &:hover {
+            cursor: pointer;
+            color: #eccc68;
+    
+        }
+
+    }
+
+    
+
+}

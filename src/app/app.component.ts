@@ -1,10 +1,23 @@
 import { Component } from '@angular/core';
 
+import { AuthService } from './services/auth.service';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'pl';
+
+
+
+
+  constructor(private auth:AuthService){}
+
+  isLogged(){
+
+    return !!this.auth.currentUser;
+
+  }
+
 }

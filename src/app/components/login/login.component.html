@@ -1,0 +1,22 @@
+<div class="wrapper d-flex flex-column justify-content-center align-items-center">
+    <div class="form-wrapper d-flex flex-column justify-content-center align-items-center">
+        <div class="logo">
+            <h1>PL</h1>
+        </div>
+        <form (submit)="login()">
+            <div class="row">
+                <div class="col form-group">
+                    <label for="login">Login</label>
+                    <input type="text" class="form-control" placeholder="Login" name="login" [(ngModel)]="user.login">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" class="form-control" placeholder="Senha" name="password" [(ngModel)]="user.password">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+    </div>
+</div>

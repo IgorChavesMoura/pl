@@ -1,0 +1,7 @@
+<div class="wrapper mt-50">
+    <h3>Contratos</h3>
+    <ul class="list-group">
+        <li class="list-group-item" (click)="goToInstituteDetail(insitute.id)" *ngFor="let insitute of institutes" >{{insitute.name}}</li>
+    </ul>
+    <button (click)="goToCreateInstitute()" class="btn btn-success btn-create" ><i class="fas fa-plus"></i>Novo Contrato</button>
+</div>

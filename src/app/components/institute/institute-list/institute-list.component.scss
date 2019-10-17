@@ -1,0 +1,25 @@
+.list-group-item {
+
+    &:hover {
+
+        background: #eccc68;
+        cursor: pointer;
+        color:#fff;
+        //border-color: #fff;
+
+    }
+
+
+}
+
+.btn-create {
+
+    margin-top: 25px;
+
+    i {
+
+        margin-right: 5px;
+
+    }
+
+}
